@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pfc.css">
+    <title>Pierre Feuille Ciseau</title>
+</head>
+<body>
+    <p class="titre">Commencons notre jeu</p>
+    <div class="centrer">
+        <button class="pierre" onclick="
+    s=choixComputer();
+   
+    if (s==='pierre'){
+        result='fait nul';
+    }
+    else if (s==='feuille'){
+        result='perdu';
+    }
+    else if (s==='ciseau'){
+        result='gagné';
+    }
+
+  match(result);
+  d='pierre';
+  afficher();
+  
+  "><img src="images-pfc/pierre.png" class="choix"></button>
+
+   <button class="feuille" onclick="
+     s = choixComputer();
+     result='';
+    
+    if (s==='pierre'){
+        result='gagné';
+    }
+    else if (s==='feuille'){
+        result='fait nul';
+    }
+    else if (s==='ciseau'){
+        result='perdu';
+    }
+    match(result);
+
+    d='Feuille';
+    afficher();
+
+    "><img src="images-pfc/feuille.png" class="choix"></button>
+    
+
+
+<button class="ciseau" onclick=" 
+    s = choixComputer();
+      result='';
+   
+    
+    if (s==='pierre'){
+        result='perdu';
+    }
+    else if (s==='feuille'){
+        result='gagné';
+    }
+    else if (s==='ciseau'){
+        result='fait nul';
+    }
+
+        
+    match(result);
+    d='ciseau';
+    afficher();
+  
+        
+    "><img src="images-pfc/ciseau.png" class="choix"></button>
+   
+
+    </div>
+  
+
+    
+
+
+
+    
+    
+
+<p class="js-match"></p>
+<p class="js-resultat"></p>
+<p class="js-score"></p>
+
+
+<button class="recommencer" onclick =" 
+score.gagner=0;
+score.egalité=0;
+score.perdu=0;
+
+afficherbis();    
+">recommencer </button>
+
+
+
+
+<script src="pfc.js">
+   
+
+</script>
+
+</body>
+</html>
