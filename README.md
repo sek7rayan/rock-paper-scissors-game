@@ -66,6 +66,4 @@ Contributions are welcome! If you have suggestions for improvements or new featu
 
 - [sek7rayan](https://github.com/sek7rayan)
 
----
 
-Feel free to customize this README to better fit your project or add any additional information!
