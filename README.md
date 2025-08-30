@@ -49,15 +49,7 @@ No special requirements. All you need is a modern web browser.
 - The winner is displayed and the scores are updated.
 - Refresh the page to reset.
 
-## Folder Structure
 
-```
-rock-paper-scissors-game/
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-```
 
 ## Contributing
 
@@ -69,9 +61,6 @@ Contributions are welcome! If you have suggestions for improvements or new featu
 4. Push to your branch.
 5. Open a Pull Request.
 
-## License
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for more information.
 
 ## Author
 
